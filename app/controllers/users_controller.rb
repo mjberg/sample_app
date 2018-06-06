@@ -1,4 +1,4 @@
-# pick up https://www.railstutorial.org/book/basic_login#sec-changing_the_layout_links
+# pick up https://www.railstutorial.org/book/advanced_login#sec-remember_me_checkbox
 
 class UsersController < ApplicationController
 
