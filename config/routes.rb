@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   delete '/logout',  to: 'sessions#destroy'
   patch  '/edit',    to: 'users#edit'
   resources :users
+  resources :account_activations, only: [:edit]
 end

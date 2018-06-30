@@ -1,5 +1,7 @@
 # Ruby on Rails Tutorial sample application
 
+#https://www.railstutorial.org/book/account_activation#sec-activation_edit_action
+
 This is the sample application for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
