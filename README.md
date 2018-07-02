@@ -1,6 +1,6 @@
 # Ruby on Rails Tutorial sample application
 
-#https://www.railstutorial.org/book/account_activation#sec-activation_edit_action
+#https://www.railstutorial.org/book/account_activation#sec-email_previews
 
 This is the sample application for
 [*Ruby on Rails Tutorial:
