@@ -13,7 +13,7 @@ end
 
   def show
     @user = User.find(params[:id])
-    redirect_to root_url and return unless FILL_IN
+    redirect_to root_url 
   end
 
   def new
@@ -25,7 +25,7 @@ end
     if @user.save
       @user.send_activation_email
       flash[:info] = "Please check your email to activate your account."
-      redirect_to root_url
+      redirect_to @user
     else
       render 'new'
     end

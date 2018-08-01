@@ -34,7 +34,7 @@ class User < ApplicationRecord
      return false if digest.nil?
      BCrypt::Password.new(digest).is_password?(token)
    end
- end
+
 
    #Forgets a user
    def forget
@@ -63,5 +63,4 @@ class User < ApplicationRecord
       self.activation_token  = User.new_token
       self.activation_digest = User.digest(activation_token)
     end
-
 end
